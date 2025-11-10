@@ -9,6 +9,10 @@ export default class MainMenuScene extends Phaser.Scene {
     this.load.image("santa", "assets/santa.png");
   }
 
+   handleExit() {
+     window.parent.postMessage({ type: "EXIT_TO_MENU" }, "*");
+    }
+
   create() {
     const { width, height } = this.scale;
 
@@ -82,8 +86,10 @@ export default class MainMenuScene extends Phaser.Scene {
     });
 
     exitBtn.on("pointerdown", () => {
-      this.game.destroy(true);
+      this.handleExit();
+      this.time.delayedCall(100, () => this.game.destroy(true));
     });
+
 
     // Footer
     this.add.text(width / 2, height - 50, "© 2025 - Made by Tui 💙", {

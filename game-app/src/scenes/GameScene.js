@@ -10,6 +10,7 @@ export default class GameScene extends Phaser.Scene {
     this.playerHpBar = null;
     this.playerMaxHp = 100;
     this.playerHp = 100;
+    this.soilGroup = null;
   }
 
   create() {
@@ -39,6 +40,7 @@ export default class GameScene extends Phaser.Scene {
     this.treeColliders = this.physics.add.staticGroup();
     this.trees = this.add.group();
     this.snowmen = this.physics.add.group();
+    this.soilGroup = this.physics.add.group();
 
     const treeObjects = map.getObjectLayer("Trees")?.objects || [];
     const snowmanObjects = map.getObjectLayer("Snowmen")?.objects || [];
@@ -86,6 +88,7 @@ export default class GameScene extends Phaser.Scene {
         .setScale(1)
         .setDepth(-0.5)
         .setRotation(obj.rotation); // nằm dưới các vật thể khác
+      this.soilGroup.add(soil);
     });
     snowmanObjects.forEach(obj => {
       if (obj.type === "snowman") {
@@ -370,6 +373,8 @@ export default class GameScene extends Phaser.Scene {
         snowman.state = "idle";
       }
       break;
+      default:
+        break;
   }
 
   this.updateHpBar(snowman);

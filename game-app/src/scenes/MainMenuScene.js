@@ -33,7 +33,7 @@ export default class MainMenuScene extends Phaser.Scene {
     });
 
     // Tiêu đề (trên Santa)
-    const title = this.add.text(width / 2, height / 2 - 200, "❄ SNOW DEFENSE ❄", {
+    const title = this.add.text(width / 2 , height / 2 - 220, "❄ SNOW DEFENSE ❄", {
       fontSize: "64px",
       color: "#00ffff",
       fontStyle: "bold",

@@ -120,6 +120,24 @@
                 "y": 412,
                 "type": "snowman",
                 "point": true
+                },
+                {
+                "x": 250,
+                "y": 512,
+                "type": "snowman",
+                "point": true
+                },
+                {
+                "x": 720,
+                "y": 212,
+                "type": "snowman",
+                "point": true
+                },
+                {
+                "x": 420,
+                "y": 212,
+                "type": "snowman",
+                "point": true
                 }
             ],
             "opacity": 1,
@@ -263,7 +281,134 @@
                  "x": 700,
                  "y": 400,
                  "type": "log"                    
-                }
+                },
+                {
+                 "height": 32,
+                 "width": 32,
+                 "x": 100,
+                 "y": 200,
+                 "type": "log"                    
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 600,
+                "y": 136,
+                "type": "soil_1",
+                "name": "",
+                "point": true,
+                "visible": true
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 600,
+                "y": 104,
+                "type": "soil_1",
+                "name": "",
+                "point": true,
+                "visible": true
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 632,
+                "y": 104,
+                "type": "soil_3",
+                "name": "",
+                "point": true,
+                "visible": true
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 664,
+                "y": 104,
+                "type": "soil_3",
+                "name": "",
+                "point": true,
+                "visible": true
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 696,
+                "y": 104,
+                "type": "soil_1",
+                "name": "",
+                "point": true,
+                "visible": true
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 728,
+                "y": 104,
+                "type": "soil_3",
+                "name": "",
+                "point": true,
+                "visible": true
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 728,
+                "y": 136,
+                "type": "soil_3",
+                "name": "",
+                "point": true,
+                "visible": true
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 760,
+                "y": 136,
+                "type": "soil_1",
+                "name": "",
+                "point": true,
+                "visible": true
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 796,
+                "y": 136,
+                "type": "soil_1",
+                "name": "",
+                "point": true,
+                "visible": true
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 600,
+                "y": 264,
+                "type": "soil_1",
+                "name": "",
+                "point": true,
+                "visible": true
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 600,
+                "y": 296,
+                "type": "soil_1",
+                "name": "",
+                "point": true,
+                "visible": true
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 600,
+                "y": 328,
+                "type": "soil_1",
+                "name": "",
+                "point": true,
+                "visible": true
+                }                    
             ],
             "opacity": 1,
             "type": "objectgroup",
@@ -292,7 +437,77 @@
                  "x": 362,
                  "y": 480,
                  "type": "snowmon_2"
-                }  
+                },
+                {
+                 "height": 32,
+                 "width": 32,
+                 "x": 200,
+                 "y": 200,
+                 "type": "snowmon_2"
+                },
+                {
+                "height": 32,
+                 "width": 32,
+                 "x": 400,
+                 "y": 100,
+                 "type": "top_left"  
+                },
+                {
+                "height": 32,
+                 "width": 32,
+                 "x": 432,
+                 "y": 100,
+                 "type": "top_middle"  
+                },
+                {
+                "height": 32,
+                 "width": 32,
+                 "x": 464,
+                 "y": 100,
+                 "type": "top_right"  
+                },                
+                {
+                "height": 32,
+                 "width": 32,
+                 "x": 400,
+                 "y": 132,
+                 "type": "ice_left"  
+                },
+                {
+                "height": 32,
+                 "width": 32,
+                 "x": 432,
+                 "y": 132,
+                 "type": "ice"  
+                },
+                {
+                "height": 32,
+                 "width": 32,
+                 "x": 464,
+                 "y": 132,
+                 "type": "ice_right"  
+                },
+                {
+                "height": 32,
+                 "width": 32,
+                 "x": 400,
+                 "y": 164,
+                 "type": "bottom_left"  
+                },
+                {
+                "height": 32,
+                 "width": 32,
+                 "x": 432,
+                 "y": 164,
+                 "type": "bottom_middle"  
+                },
+                {
+                "height": 32,
+                 "width": 32,
+                 "x": 464,
+                 "y": 164,
+                 "type": "bottom_right"  
+                }
             ],
             "opacity": 1,
             "type": "objectgroup",

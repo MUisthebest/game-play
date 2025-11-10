@@ -22,6 +22,15 @@ export default class PreloadScene extends Phaser.Scene {
     this.load.image("santa", "/assets/santa.png");
     this.load.image("snowball","/assets/snowball.png");
     this.load.image("log","/assets/Log.png");
+    this.load.image("top_left", "/assets/Ice_Top_Left.png");
+    this.load.image("top_right", "/assets/Ice_Top_Right.png");
+    this.load.image("top_middle", "/assets/Ice_Top_Middle.png");
+    this.load.image("ice_left", "/assets/Ice_Left.png");
+    this.load.image("ice_right", "/assets/Ice_Right.png");
+    this.load.image("ice", "/assets/Ice.png");
+    this.load.image("bottom_left", "/assets/Ice_Bottom_Left.png");
+    this.load.image("bottom_right", "/assets/Ice_Bottom_Right.png");
+    this.load.image("bottom_middle", "/assets/Ice_Bottom_Middle.png");
     this.load.tilemapTiledJSON("map", "/assets/map.json");
 
     // Sprite đứng yên (idle)

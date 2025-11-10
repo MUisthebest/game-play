@@ -73,7 +73,8 @@ export default class GameScene extends Phaser.Scene {
         .setDepth(9);
       this.trees.add(sprite);
       const collider = this.physics.add.staticImage(x, y, "snow")
-        .setSize(20, 40)
+        .setSize(20, 20)
+        .setOffset(10,20)
         .setVisible(false);
       this.treeColliders.add(collider);
     });
@@ -99,15 +100,13 @@ export default class GameScene extends Phaser.Scene {
           .setBounce(0.1)
           .setCollideWorldBounds(true)
           .setSize(120,120)
-          .setOffset(80, 0);
+          .setOffset(80, 0)
+          .setDepth(10);
 
         snowman.hp = 50;
         snowman.maxHp = 50;
         snowman.speed = 50;
 
-        // Thanh máu
-        snowman.hpBar = this.add.graphics();
-        this.updateHpBar(snowman);
 
         this.snowmen.add(snowman);
       }
@@ -300,6 +299,7 @@ export default class GameScene extends Phaser.Scene {
 
         if (dist < 25) { // ngưỡng va chạm cửa
           this.scene.launch("VictoryScene");
+          this.scene.pause();
         }
       }
     const speed = 150;

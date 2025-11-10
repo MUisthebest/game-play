@@ -71,7 +71,7 @@ export default class GameScene extends Phaser.Scene {
         .setDepth(9);
       this.trees.add(sprite);
       const collider = this.physics.add.staticImage(x, y, "snow")
-        .setSize(32, 60)
+        .setSize(20, 40)
         .setVisible(false);
       this.treeColliders.add(collider);
     });
@@ -288,6 +288,17 @@ export default class GameScene extends Phaser.Scene {
       });
       return;
     }
+
+      if (this.home) {
+        const doorX = 575;
+        const doorY = 550;
+
+        const dist = Phaser.Math.Distance.Between(this.player.x, this.player.y, doorX, doorY);
+
+        if (dist < 25) { // ngưỡng va chạm cửa
+          this.scene.launch("VictoryScene");
+        }
+      }
     const speed = 150;
     this.player.setVelocity(0);
 

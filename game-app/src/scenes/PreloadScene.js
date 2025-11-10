@@ -19,7 +19,9 @@ export default class PreloadScene extends Phaser.Scene {
     this.load.image("snowmon_2","/assets/snowman_2.png");
     this.load.image("hole","/assets/hole.png");
     this.load.image("home", "/assets/home.png");
+    this.load.image("santa", "/assets/santa.png");
     this.load.image("snowball","/assets/snowball.png");
+    this.load.image("log","/assets/Log.png");
     this.load.tilemapTiledJSON("map", "/assets/map.json");
 
     // Sprite đứng yên (idle)
@@ -56,6 +58,6 @@ export default class PreloadScene extends Phaser.Scene {
   }
 
   create() {
-    this.scene.start("GameScene");
+    this.scene.start("MainMenuScene");
   }
 }

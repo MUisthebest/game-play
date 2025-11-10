@@ -3,6 +3,8 @@ import Phaser from "phaser";
 import PreloadScene from "../scenes/PreloadScene";
 import GameScene from "../scenes/GameScene";
 import GameOverScene from "../scenes/GameOverScene";
+import MainMenuScene from "../scenes/MainMenuScene";
+import VictoryScene  from "../scenes/VictoryScene";
 
 export default function Game() {
   useEffect(() => {
@@ -18,7 +20,7 @@ export default function Game() {
           debug: false,
         },
       },
-      scene: [PreloadScene, GameScene, GameOverScene],
+      scene: [PreloadScene, GameScene, GameOverScene, MainMenuScene, VictoryScene],
     };
 
     const game = new Phaser.Game(config);

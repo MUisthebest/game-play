@@ -256,6 +256,13 @@
                  "x": 280,
                  "y": 400,
                  "type": "hole"
+                },
+                {
+                 "height": 32,
+                 "width": 32,
+                 "x": 700,
+                 "y": 400,
+                 "type": "log"                    
                 }
             ],
             "opacity": 1,

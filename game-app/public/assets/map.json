@@ -13,7 +13,7 @@
                 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 
                 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 
                 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 
-                1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,
+                1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1,
                 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 
                 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 
                 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 
@@ -21,7 +21,7 @@
                 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 
                 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 
                 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 
-                1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 
+                1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 
                 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 
                 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1  
             ],
@@ -33,7 +33,264 @@
             "visible": true,
             "x": 0,
             "y": 0
-        }
+        },
+        {
+            "name": "Trees",
+            "objects": [
+                {
+                "height": 32,
+                "width": 32,
+                "x": 320,
+                "y": 256,
+                "type": "tree_01",
+                "name": "",
+                "visible": true,
+                "rotation": 0
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 320,
+                "y": 280,
+                "type": "tree_02",
+                "name": "",
+                "visible": true,
+                "rotation": 0
+                },        
+                {
+                "height": 32,
+                "width": 32,
+                "x": 350,
+                "y": 340,
+                "type": "tree_02",
+                "name": "",
+                "visible": true,
+                "rotation": 0
+                },     
+                {
+                "height": 32,
+                "width": 32,
+                "x": 370,
+                "y": 340,
+                "type": "tree_01",
+                "name": "",
+                "visible": true,
+                "rotation": 0
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 450,
+                "y": 340,
+                "type": "tree_01",
+                "name": "",
+                "visible": true,
+                "rotation": 0
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 420,
+                "y": 420,
+                "type": "tree_01",
+                "name": "",
+                "visible": true,
+                "rotation": 0
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 450,
+                "y": 440,
+                "type": "tree_01",
+                "name": "",
+                "visible": true,
+                "rotation": 0
+                }
+            ],
+            "opacity": 1,
+            "type": "objectgroup",
+            "visible": true
+            },
+            {
+            "name": "Snowmen",
+            "objects": [
+                {
+                "x": 120,
+                "y": 412,
+                "type": "snowman",
+                "point": true
+                }
+            ],
+            "opacity": 1,
+            "type": "objectgroup",
+            "visible": true
+            },
+            {
+            "name": "Home",
+            "objects": [
+                {
+                "height": 133,
+                "width": 202,
+                "x": 600,
+                "y": 500,
+                "type": "home",
+                "name": "",
+                "point": true,
+                "visible": true,
+                "rotation": 0
+                }
+            ],
+            "opacity": 1,
+            "type": "objectgroup",
+            "visible": true
+            },
+            {
+            "name": "Soil",
+            "objects": [
+                {
+                "height": 32,
+                "width": 32,
+                "x": 600,
+                "y": 200,
+                "type": "soil_1",
+                "name": "",
+                "point": true,
+                "visible": true,
+                "rotation": 0
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 600,
+                "y": 232,
+                "type": "soil_1",
+                "name": "",
+                "point": true,
+                "visible": true,
+                "rotation": 0
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 568,
+                "y": 168,
+                "type": "soil_2",
+                "name": "",
+                "point": true,
+                "visible": true,
+                "rotation": 0
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 632,
+                "y": 168,
+                "type": "soil_3",
+                "name": "",
+                "point": true,
+                "visible": true,
+                "rotation": 0
+                },                                
+                {
+                "height": 32,
+                "width": 32,
+                "x": 568,
+                "y": 232,
+                "type": "soil_5",
+                "name": "",
+                "point": true,
+                "visible": true,
+                "rotation": 0
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 632,
+                "y": 168,
+                "type": "soil_3",
+                "name": "",
+                "point": true,
+                "visible": true
+                },                
+                {
+                "height": 32,
+                "width": 32,
+                "x": 568,
+                "y": 200,
+                "type": "soil_5",
+                "name": "",
+                "point": true,
+                "visible": true
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 600,
+                "y": 168,
+                "type": "soil_1",
+                "name": "",
+                "point": true,
+                "visible": true
+                },
+                {
+                "height": 32,
+                "width": 32,
+                "x": 632,
+                "y": 200,
+                "type": "soil_4",
+                "name": "",
+                "point": true,
+                "visible": true
+                },
+                {
+                 "height": 32,
+                 "width": 32,
+                 "x": 632,
+                 "y": 232,
+                 "type": "soil_4"
+                },
+                {
+                 "height": 32,
+                 "width": 32,
+                 "x": 280,
+                 "y": 400,
+                 "type": "hole"
+                }
+            ],
+            "opacity": 1,
+            "type": "objectgroup",
+            "visible": true
+            },
+            {
+            "name": "Snowmon",
+            "objects": [
+                {
+                "height": 32,
+                 "width": 32,
+                 "x": 632,
+                 "y": 280,
+                 "type": "snowmon_1"
+                },
+                {
+                "height": 32,
+                 "width": 32,
+                 "x": 470,
+                 "y": 280,
+                 "type": "snowmon_1"
+                },
+                {
+                 "height": 32,
+                 "width": 32,
+                 "x": 362,
+                 "y": 480,
+                 "type": "snowmon_2"
+                }  
+            ],
+            "opacity": 1,
+            "type": "objectgroup",
+            "visible": true  
+            }
     ],
     "orientation": "orthogonal",
     "renderorder": "right-down",
@@ -53,7 +310,7 @@
         },
         {
             "firstgid": 2,
-            "image": "assets/pine.png",
+            "image": "assets/pine_01.png",
             "imageheight": 32,
             "imagewidth": 32,
             "margin": 0,
@@ -73,6 +330,19 @@
             "name": "snow",
             "spacing": 0,
             "tilecount": 3,
+            "columns": 1,
+            "tileheight": 32,
+            "tilewidth": 32
+        },
+        {
+            "firstgid": 4,
+            "image": "assets/home.png",
+            "imageheight": 32,
+            "imagewidth": 32,
+            "margin": 0,
+            "name": "home",
+            "spacing": 0,
+            "tilecount": 1,
             "columns": 1,
             "tileheight": 32,
             "tilewidth": 32

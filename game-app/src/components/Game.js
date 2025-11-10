@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Phaser from "phaser";
 import PreloadScene from "../scenes/PreloadScene";
 import GameScene from "../scenes/GameScene";
+import GameOverScene from "../scenes/GameOverScene";
 
 export default function Game() {
   useEffect(() => {
@@ -17,7 +18,7 @@ export default function Game() {
           debug: false,
         },
       },
-      scene: [PreloadScene, GameScene],
+      scene: [PreloadScene, GameScene, GameOverScene],
     };
 
     const game = new Phaser.Game(config);
